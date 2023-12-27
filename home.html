@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prodaja E-booka</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        #container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        .highlight-text {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #4caf50;
+            margin-bottom: 15px;
+        }
+
+        .call-to-action {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        label {
+            margin-top: 10px;
+            color: #333;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: white;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            margin-top: 20px;
+            background-color: #333;
+            color: #ffffff;
+            padding: 10px;
+            border-radius: 0 0 10px 10px;
+        }
+
+        footer a {
+            color: #4caf50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .slideshow-container {
+            max-width: 100%;
+            position: relative;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .slideshow-image {
+            width: 100%;
+            display: none;
+        }
+
+        .slideshow-image:first-child,
+        .slideshow-image:last-child {
+            display: block;
+        }
+
+        .prev,
+        .next {
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            cursor: pointer;
+        }
+
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .prev-disabled {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+        <div>
+            <h1>🚀 <span style="color: #4caf50;">Revolucionarni vodič za fakultetski život</span></h1>
+            <p class="highlight-text">Zamisli ovo: uspešno savladavanje ispita, manje stresa, više slobodnog vremena i,
+                na kraju
+                dana, osmeh na licu! Da, to je moguće, i sve je sadržano u mom e-booku "<span
+                    style="font-weight: bold;">Revolucionarni
+                    vodič za fakultetski život</span>". 😊</p>
+        </div>
+
+        <div>
+            <h2>📚 <span style="color: #4caf50;">Šta Te Očekuje Unutar Ovog Vodiča?</span></h2>
+            <ul>
+                <li>Konkretni koraci za efikasno učenje i pamćenje gradiva koje možeš primeniti odmah!</li>
+                <li>Saveti za uspešno rešavanje stresa tokom studija</li>
+                <li>Kako se nositi s neuspesima i prevazići prepreke na fakultetu?</li>
+                <li>Pomoć za odabir pravog fakulteta i planiranje budućnosti.</li>
+                <li>Bez glupog filozofiranja i palamuđenja.</li>
+                <li>Bonus poklon na kraju 🎉</li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>🎯 <span style="color: #4caf50;">Za Koga Je Ovaj Vodič?</span></h2>
+            <ul>
+                <li>Za studente koji žele visok prosek na fakultetu.</li>
+                <li>Za one koji se suočavaju sa stresom i imaju osećaj da se nisu snašli baš najbolje na studijama.</li>
+                <li>Za sve koji žele da im studentski dani ostanu u lepom sećanju.</li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>🎁 <span style="color: #4caf50;">Šta Dobijaš Kupovinom Ovog Vodiča?</span></h2>
+            <ul>
+                <li>Ključ za otključavanje tvog punog potencijala na fakultetu.</li>
+                <li>Alate i strategije za efikasnije učenje i postizanje boljih ocena.</li>
+                <li>Samopouzdanje i veštine koje će ti koristiti za ceo život.</li>
+                <li>Specijalan poklon na kraju 🎉</li>
+            </ul>
+        </div>
+
+        <p class="call-to-action">💥 E-book košta 35 evra.Ti biras da li ćes ovaj vikend izaći u grad i potrošiti pare ili ćes ostati kod kuće i taj novac uložiti u sebe.</p>
+        <div class="slideshow-container">
+            <div class="slideshow-image">
+                <img src="images/slika1.jpg" style="width:100%">
+            </div>
+            <div class="slideshow-image">
+                <img src="images/slika2.jpg" style="width:100%">
+            </div>
+            <div class="slideshow-image">
+                <img src="images/slika3.jpg" style="width:100%">
+            </div>
+            <div class="slideshow-image">
+                <img src="images/slika4.jpg" style="width:100%">
+            </div>
+            <div class="slideshow-image">
+                <img src="images/slika5.jpg" style="width:100%">
+            </div>
+            <div class="slideshow-image">
+                <img src="images/slika6.jpg" style="width:100%">
+            </div>
+
+            <a class="prev prev-disabled" onclick="plusSlides(-1)" id="prevButton">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)" id="nextButton">&#10095;</a>
+        </div>
+
+        <p>Ne čekaj da stres i neuspesi preplave tvoj fakultetski put. Ovo je tvoja prilika da napraviš promenu! "<span
+                style="font-weight: bold;">Revolucionarni vodič za fakultetski život</span>" će ti pomoći da dostigneš
+            svoje
+            ciljeve i živiš srećniji i ispunjeniji život.</p>
+        <div>
+    <!-- Dodatni div za sliku -->
+            <img src="images/pos.jpg" style="width: 100%;" alt="Pozadinska slika">
+        </div>  
+        
+        <p class="call-to-action">🚀 Da ne budeš u ovoj situaciji za par godina.
+            
+            Naruči svoj primerak e-buka upisivanjem podataka u polje ispod!
+        </p>
+
+        <form action="https://formsubmit.co/dareebook@gmail.com" method="POST">
+            <label>Ime</label> 
+            <input type="text" name="name" required placeholder="Ime">
+            <label>Instagram</label>
+            <input type="text" name="text" required placeholder="Instagram">
+     <button type="submit">Prijavi se za Ebook!</button>
+</form>
+    </div>
+
+    <footer>
+        <p>Made by <span style="color: #4caf50;">Darko Milošević</span> | Instagram: <a
+                href="https://www.instagram.com/ucenje_medicine/"
+                style="color: #4caf50; text-decoration: none; font-weight: bold;" target="_blank">ucenje_medicine</a></p>
+    </footer>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("slideshow-image");
+            var prevButton = document.getElementById("prevButton");
+            var nextButton = document.getElementById("nextButton");
+
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex - 1].style.display = "block";
+
+            // Onemogući/omogući strelice na osnovu trenutnog slajda
+            if (slideIndex === 1) {
+                prevButton.style.display = "none";
+            } else {
+                prevButton.style.display = "block";
+            }
+
+            if (slideIndex === slides.length) {
+                nextButton.style.display = "none";
+            } else {
+                nextButton.style.display = "block";
+            }
+        }
+
+        function sendForm() {
+    var ime = document.getElementById('ime').value;
+    var instagram = document.getElementById('instagram').value;
+
+    
+}
+    </script>
+</body>
+
+</html>
